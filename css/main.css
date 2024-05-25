@@ -1,0 +1,85 @@
+body {
+    background-color:rgb(177, 177, 177) ;
+}
+body.dark{background-color: #000000;
+    color: #00ccff;
+
+}
+#image2 {
+    transition: all 1s;
+}
+
+
+.meme_font{
+    margin-bottom: auto;
+    margin-top: auto;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+button{
+    color: rgb(51, 0, 255);
+    font-size: x-large;
+    border: none;
+    border-radius: 40%;
+    height: 50px;
+    background-color: aquamarine;
+    opacity: 0.2;
+}
+button:hover{filter: saturate(150%);opacity:1;}
+.zakaz{
+    height: 100%;
+    padding: 2%;
+    margin-right: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size:medium;
+    background-color: green;
+    opacity: 0.5;
+    color: #ffffff;
+}
+.div{
+    align-items: center;
+    display: flex;
+
+}
+
+header{
+    width: 100%;
+    display: flex;
+    background-color: rgb(210, 255, 246);
+     margin: 0; 
+     position:sticky; 
+    top: 0; 
+align-items: center;
+justify-content: space-between;
+
+    }
+.dark header{
+    background-color: blue;
+}                                                                                                   
+.tema{
+    height: 100%;
+    padding: 1%;
+    margin-right: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: small;
+    background-color: rgb(131, 131, 131);
+}
+.ttt{
+    font-size: small;
+    background-color: blue;
+}
+
+header p{margin-left: 2%;}
+header a{margin-left: 2%; } 
+header a:hover{background-color: rgb(133, 255, 245); color: #000000;}
+header a:active{background-color: rgb(0, 34, 255);}
+h1{margin-left: 35%;}
+@media(max-width:750px){
+    #image2{content:url(../9bfe1670adac415c13a32e32e1249dde.jpeg) ;}
+}
+@media (max-width:250px){
+    #image2{content:url(../6621fd6299c52600e182eba20700f8fb.jpg) ;}
+}
+    
